@@ -16,7 +16,7 @@
         "fabpot/php-cs-fixer": "0.4.*@dev"
     },
     "minimum-stability": "dev",
-    "autoload-dev": {
+    "autoload": {
         "psr-0": {
             "AntiMattr\\TestCase\\": "src/"
         }
