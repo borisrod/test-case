@@ -18,10 +18,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
-            "AntiMattr\\TestCase\\": "src/"
-        },
-        "classmap": [
-            "src"
-        ]
+            "AntiMattr": "src/"
+        }
     }
 }
