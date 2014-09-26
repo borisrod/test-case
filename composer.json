@@ -20,5 +20,13 @@
         "psr-0": {
             "AntiMattr\\TestCase\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },      
+    "archive": {
+        "exclude": ["bin"]
+    }    
 }
