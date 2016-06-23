@@ -14,6 +14,19 @@ namespace AntiMattr\TestCase;
 abstract class AntiMattrTestCase extends \PHPUnit_Framework_TestCase
 {
     /**
+     * Override of parent function due to its deprecation since phpUnit 5.4
+     *
+     * @param string $class
+     *
+     * @return \PHPUnit_Framework_MockObject_MockObject
+     */
+    protected function getMock($class)
+    {
+        return $this->getMockBuilder($class)
+            ->getMock();
+    }
+
+    /**
      * @param string $class
      *
      * @return \PHPUnit_Framework_MockObject_MockObject
