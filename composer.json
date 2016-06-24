@@ -1,9 +1,9 @@
 {
-    "name": "borisrod/test-case",
+    "name": "antimattr/test-case",
     "type": "library",
     "description": "PHPUnit Test Case Assistance",
     "keywords": ["antimattr", "phpunit"],
-    "homepage": "http://github.com/borisrod/test-case",
+    "homepage": "http://github.com/antimattr/test-case",
     "license": "MIT",
     "authors": [
         {"name": "Matthew Fitzgerald", "email": "matthewfitz@gmail.com"}
